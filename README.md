@@ -16,17 +16,18 @@ Python · Pandas · NumPy · Matplotlib · Jupyter
 
 
 ### results
-portfolio starting value = 1.0
 
-                  Buy & Hold  MACD Strategy
-Total Return       28.666832      12.575612
-CAGR                0.253475       0.189843
-Volatility (ann)    0.282718       0.237167
-Sharpe Ratio        0.942718       0.853566
-Max Drawdown       -0.437972      -0.314272
-Win Rate                 NaN       0.875000
-Average Win              NaN       0.535927
-Average Loss             NaN      -0.124497
+| Metric              | Buy & Hold | MACD Strategy |
+|---------------------|------------|----------------|
+| **Total Return**     | 28.666832  | 12.575612      |
+| **CAGR**             | 0.253475   | 0.189843       |
+| **Volatility (ann)** | 0.282718   | 0.237167       |
+| **Sharpe Ratio**     | 0.942718   | 0.853566       |
+| **Max Drawdown**     | -0.437972  | -0.314272      |
+| **Win Rate**         | NaN        | 0.875000       |
+| **Average Win**      | NaN        | 0.535927       |
+| **Average Loss**     | NaN        | -0.124497      |
+
 
 ### Conclusion
 
