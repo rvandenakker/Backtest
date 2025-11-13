@@ -1,6 +1,6 @@
 # MACD-based Trading Strategy
 I did this backtest after seeing a video youtube of someone claiming huge returns using a MACD trading strategy.
-I wanted to prove this did not work, because if it worked it would not be on youtube.
+I did not believe this worked, because if it worked it would not be on youtube.
 
 This project demonstrates how to compute and visualize the MACD indicator
 and evaluate buy/sell signals using Python (Pandas, Matplotlib, yfinance).
@@ -11,11 +11,9 @@ and evaluate buy/sell signals using Python (Pandas, Matplotlib, yfinance).
 - Simple rule-based strategy and backtest performance
 - Focus on clear, reproducible data analysis
 
-### Tech stack
-Python · Pandas · NumPy · Matplotlib · Jupyter
-
 
 ### results
+Apple stock from 2010 until 2025
 
 | Metric              | Buy & Hold | MACD Strategy |
 |---------------------|------------|----------------|
@@ -40,7 +38,6 @@ The MACD strategy does, however, offer lower risk in absolute terms:
 - lower annualized volatility (23.7% vs 28.3%), and  
 - a smaller maximum drawdown (–31.4% vs –43.8%).
 
-It also shows a high win rate (87.5%), but these wins are not large enough to compensate for the missed upside of long bull runs that Buy & Hold fully captures.
 
 In summary:
 
@@ -49,3 +46,6 @@ In summary:
 
 For a strong long-term uptrend like AAPL, this simple MACD implementation behaves more like a risk-reduction overlay than a return-enhancing strategy, and it does not outperform passive investing on a risk-adjusted basis.
 This conclusion is in line with my hypothesis
+
+### Tech stack
+Python · Pandas · NumPy · Matplotlib · Jupyter
